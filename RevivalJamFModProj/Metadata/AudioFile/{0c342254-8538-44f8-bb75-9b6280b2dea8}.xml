@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0c342254-8538-44f8-bb75-9b6280b2dea8}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="assetPath">
+			<value>Player/Player_FS_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.21537414965986396</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc96b60d-711b-4e49-a46c-3136ec9d8e10}</destination>
+		</relationship>
+	</object>
+</objects>

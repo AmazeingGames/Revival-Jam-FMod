@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{77de62cd-0c2d-4930-b768-ec4c98e89c81}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="assetPath">
+			<value>Player/Stab_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.23133786848072563</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc96b60d-711b-4e49-a46c-3136ec9d8e10}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{99f3eb2d-de1d-46a2-9db7-b148ba5d8d28}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="assetPath">
+			<value>Player/Stone_FS_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.17836734693877551</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc96b60d-711b-4e49-a46c-3136ec9d8e10}</destination>
+		</relationship>
+	</object>
+</objects>

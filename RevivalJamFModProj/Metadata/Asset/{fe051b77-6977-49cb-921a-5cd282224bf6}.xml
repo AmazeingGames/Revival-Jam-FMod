@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{fe051b77-6977-49cb-921a-5cd282224bf6}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
+		<property name="assetPath">
+			<value>Arcade_Cab/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc96b60d-711b-4e49-a46c-3136ec9d8e10}</destination>
+		</relationship>
+	</object>
+</objects>
