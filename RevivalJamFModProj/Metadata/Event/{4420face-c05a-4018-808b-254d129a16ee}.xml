@@ -114,7 +114,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9b7c238d-0730-429c-bce3-88efc97e6eb7}">
 		<property name="name">
-			<value>Forest</value>
+			<value>Castle</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{7c0e577e-f415-45d8-ae56-22d704a521a5}</destination>
