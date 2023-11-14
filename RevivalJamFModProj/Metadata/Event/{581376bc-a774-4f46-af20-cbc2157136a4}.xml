@@ -56,7 +56,7 @@
 			<destination>{9d0991a2-58a1-4340-bd8e-93cdfe97a272}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e94db8ac-ee79-4af0-9e1f-d2de06b3a4d0}</destination>
+			<destination>{d5159d88-9be8-4afe-b121-5aa48a0b821e}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c403eab1-a704-4d38-acf1-970634d838ac}" />
@@ -122,6 +122,7 @@
 	<object class="MixerBusEffectChain" id="{90982e60-86ea-4c9e-ad5a-41f0d8671c69}">
 		<relationship name="effects">
 			<destination>{fd22b23d-7a79-476d-86ee-fc2919eedfce}</destination>
+			<destination>{a7e16236-d446-4017-a4a9-0b3fd561b7dd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{27e766c9-4666-4580-9a29-61825182f8eb}" />
@@ -141,6 +142,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{d1f4fb9e-ec70-4d57-ac8d-02b93170fabf}" />
 	<object class="MixerBusFader" id="{fd22b23d-7a79-476d-86ee-fc2919eedfce}" />
+	<object class="MixerSend" id="{a7e16236-d446-4017-a4a9-0b3fd561b7dd}">
+		<property name="level">
+			<value>-16</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{536d937a-a003-4bd7-8b18-4f0535597201}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{dffc66c5-668f-4555-8918-eb54543c7ddc}">
 		<property name="position">
 			<value>0</value>

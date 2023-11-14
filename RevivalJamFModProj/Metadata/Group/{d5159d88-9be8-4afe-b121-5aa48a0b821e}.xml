@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{d5159d88-9be8-4afe-b121-5aa48a0b821e}">
+		<property name="name">
+			<value>Arcade_Cab</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a47cf0be-b21d-49a7-a67b-88e7cb5e869a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c9be921e-86a3-4091-80ef-5a1fecfe8b4b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e94db8ac-ee79-4af0-9e1f-d2de06b3a4d0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a47cf0be-b21d-49a7-a67b-88e7cb5e869a}">
+		<relationship name="effects">
+			<destination>{46ee8f2a-2e68-4153-9d0f-049e055e2015}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c9be921e-86a3-4091-80ef-5a1fecfe8b4b}" />
+	<object class="MixerBusFader" id="{46ee8f2a-2e68-4153-9d0f-049e055e2015}" />
+</objects>
