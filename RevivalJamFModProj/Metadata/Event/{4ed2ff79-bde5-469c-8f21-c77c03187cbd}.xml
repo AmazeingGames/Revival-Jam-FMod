@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4ed2ff79-bde5-469c-8f21-c77c03187cbd}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="name">
 			<value>ShakeStart</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{9386e8bf-f596-409c-be24-ad63ce31480f}</destination>
+			<destination>{bb384a35-fd1a-493e-ae93-28f3d6de47be}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{8671b066-ab26-482a-9c3b-fc45bd4ad0c0}</destination>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{20dbee2a-6e60-4c09-84f3-d285c5e64027}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6b5d48ee-1eb2-421f-a1c1-6a741a472a9d}</destination>
 		</relationship>
@@ -53,7 +59,7 @@
 			<destination>{59b964ec-0661-40f6-809b-6ac1a7130c9b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e94db8ac-ee79-4af0-9e1f-d2de06b3a4d0}</destination>
+			<destination>{d2924c9c-60dd-4aeb-95ea-e5ec95e43061}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{28ae0730-88ec-4d9f-9bd8-e96d35a39a8d}" />
@@ -180,7 +186,7 @@
 	</object>
 	<object class="CommandSound" id="{7bcc0fa7-3f6f-42eb-90d1-fc1407997eae}">
 		<property name="start">
-			<value>8.2000000000000011</value>
+			<value>8</value>
 		</property>
 		<property name="length">
 			<value>0</value>
