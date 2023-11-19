@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="UiMixerView" id="{89eb5d44-84a2-4b5d-bddd-295c3b335124}">
+		<property name="name">
+			<value>Real_World</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{4b7af094-f817-4266-bdfa-4a2d900e3fdb}</destination>
+			<destination>{1e066206-aa2c-49f2-9f19-1d99ce6d5487}</destination>
+			<destination>{846d19e9-c09f-4ddc-9e51-06cd611af2a0}</destination>
+			<destination>{731723ea-a3ca-40c5-8766-6fbb26b472c0}</destination>
+			<destination>{c554fde8-081a-408a-afc5-af446cc15dbe}</destination>
+			<destination>{82c5db10-08f2-4230-9b66-e7793260e09b}</destination>
+			<destination>{11b1aaa8-e467-41f8-a40f-6e494ff8d5bc}</destination>
+			<destination>{20dbee2a-6e60-4c09-84f3-d285c5e64027}</destination>
+			<destination>{56874481-7866-428e-863a-778040d0684a}</destination>
+			<destination>{d5159d88-9be8-4afe-b121-5aa48a0b821e}</destination>
+			<destination>{f1302ac5-7087-43cb-8526-29187a35d9aa}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{47e7ab56-8c58-429e-b46c-bff4b5f13126}</destination>
+		</relationship>
+	</object>
+</objects>

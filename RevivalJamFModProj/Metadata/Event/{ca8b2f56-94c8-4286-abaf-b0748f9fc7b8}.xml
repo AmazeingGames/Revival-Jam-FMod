@@ -49,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{4b7af094-f817-4266-bdfa-4a2d900e3fdb}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{36a22272-5b00-4492-b5d3-933cb033e48c}</destination>
 		</relationship>
@@ -56,10 +59,17 @@
 			<destination>{24a7e8ed-5e54-4950-8024-5de500aa75e5}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{3a803fa5-4716-42cb-8d79-4d569f88e66d}</destination>
+			<destination>{020df02a-b4f7-42c4-9225-35d67ab72a3c}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{52578d32-4225-4d26-b345-ed38f3699dbe}" />
+	<object class="EventAutomatableProperties" id="{52578d32-4225-4d26-b345-ed38f3699dbe}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="priority">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1563fc26-7364-4246-9a35-26b9a3d07f68}" />
 	<object class="GroupTrack" id="{5cc87a3c-f872-4db8-988a-a5586355160f}">
 		<relationship name="modules">
@@ -189,7 +199,10 @@
 			<value>0.239999995</value>
 		</property>
 		<property name="depth">
-			<value>11.5</value>
+			<value>8</value>
+		</property>
+		<property name="direction">
+			<value>-12</value>
 		</property>
 	</object>
 </objects>

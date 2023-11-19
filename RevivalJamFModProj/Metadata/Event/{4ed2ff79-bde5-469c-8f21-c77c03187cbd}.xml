@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4ed2ff79-bde5-469c-8f21-c77c03187cbd}">
 		<property name="color">
-			<value>Magenta</value>
+			<value>Cyan</value>
 		</property>
 		<property name="name">
 			<value>ShakeStart</value>
@@ -53,7 +53,7 @@
 	</object>
 	<object class="MixerInput" id="{20dbee2a-6e60-4c09-84f3-d285c5e64027}">
 		<property name="color">
-			<value>Magenta</value>
+			<value>Cyan</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6b5d48ee-1eb2-421f-a1c1-6a741a472a9d}</destination>
@@ -62,10 +62,17 @@
 			<destination>{59b964ec-0661-40f6-809b-6ac1a7130c9b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{d2924c9c-60dd-4aeb-95ea-e5ec95e43061}</destination>
+			<destination>{d5159d88-9be8-4afe-b121-5aa48a0b821e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{28ae0730-88ec-4d9f-9bd8-e96d35a39a8d}" />
+	<object class="EventAutomatableProperties" id="{28ae0730-88ec-4d9f-9bd8-e96d35a39a8d}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="priority">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{39c6cf37-8c86-4fc0-a9dc-7a59e70e70de}" />
 	<object class="GroupTrack" id="{e18074d3-2608-45e2-9e14-1d5ee07ebb9f}">
 		<relationship name="modules">

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="UiMixerView" id="{c552d272-249f-4c82-94ab-6f1127d835c2}">
+		<property name="name">
+			<value>Arcade_Game</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{f23c17eb-98e3-4306-aa33-f33de1aee3cd}</destination>
+			<destination>{027c5272-02c1-4d86-94ad-68ee9b6f1ecf}</destination>
+			<destination>{5dc81495-b76e-416d-9120-c57768e0a644}</destination>
+			<destination>{ff7186b6-8fb7-4cb2-8014-fd7854b7ad01}</destination>
+			<destination>{fcd82d60-a41f-416c-a322-36578838eb17}</destination>
+			<destination>{1933e649-539f-46cd-8f80-0ca8b6086bde}</destination>
+			<destination>{6700023f-af99-4014-ad03-fbd2a53bdb77}</destination>
+			<destination>{31e5d99a-fe48-4109-a2d2-f3467adf1293}</destination>
+			<destination>{f1302ac5-7087-43cb-8526-29187a35d9aa}</destination>
+			<destination>{3a803fa5-4716-42cb-8d79-4d569f88e66d}</destination>
+			<destination>{d2924c9c-60dd-4aeb-95ea-e5ec95e43061}</destination>
+			<destination>{a8844c0c-cf42-4cd2-a7b9-f219d2fd8e42}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{47e7ab56-8c58-429e-b46c-bff4b5f13126}</destination>
+		</relationship>
+	</object>
+</objects>

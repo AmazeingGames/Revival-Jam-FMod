@@ -4,8 +4,11 @@
 		<property name="color">
 			<value>Blue</value>
 		</property>
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<property name="name">
-			<value>Amb</value>
+			<value>Arcade_Amb</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{0ba67317-bd58-48a1-9e8d-2ca7c656ef7a}</destination>
@@ -19,9 +22,15 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{0ba67317-bd58-48a1-9e8d-2ca7c656ef7a}">
 		<relationship name="effects">
+			<destination>{f4b1215b-416d-47d0-93b4-41ab1da8a967}</destination>
 			<destination>{ed4427a7-8aca-42f8-b6bd-f2e254ab26ae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d60b4e7d-510a-4e71-8332-ba788d552f51}" />
+	<object class="LowpassSimpleEffect" id="{f4b1215b-416d-47d0-93b4-41ab1da8a967}">
+		<property name="cutoff">
+			<value>22000</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ed4427a7-8aca-42f8-b6bd-f2e254ab26ae}" />
 </objects>

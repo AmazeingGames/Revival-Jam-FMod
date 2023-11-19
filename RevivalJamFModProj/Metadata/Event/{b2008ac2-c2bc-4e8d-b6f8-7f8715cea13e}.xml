@@ -50,6 +50,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{11b1aaa8-e467-41f8-a40f-6e494ff8d5bc}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1fddefdb-06da-461c-a058-96a7e605982d}</destination>
 		</relationship>
@@ -60,7 +63,11 @@
 			<destination>{d5159d88-9be8-4afe-b121-5aa48a0b821e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{5313f9ed-db28-4019-acf8-8a50ffcd61f4}" />
+	<object class="EventAutomatableProperties" id="{5313f9ed-db28-4019-acf8-8a50ffcd61f4}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{614e4404-5c9d-40bc-9354-3c3b30855309}" />
 	<object class="GroupTrack" id="{2dabd1a1-003c-4dc2-8dc7-12cd15875b92}">
 		<relationship name="modules">
@@ -167,6 +174,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{ab324b40-cfdf-434c-bcf6-f10df3f6d66b}">
 		<relationship name="effects">
+			<destination>{568f6fc8-1f43-4f2b-a598-3ae0cf4a5496}</destination>
 			<destination>{a9ab75c2-47df-4917-86ef-c840369afd11}</destination>
 		</relationship>
 	</object>
@@ -185,7 +193,7 @@
 	<object class="MixerBusFader" id="{3732d8a1-1afe-459b-b084-f1b9ee832874}" />
 	<object class="MixerSend" id="{96dbbde7-c111-4079-96c7-b2664249466c}">
 		<property name="level">
-			<value>-13</value>
+			<value>-24</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>
@@ -211,6 +219,20 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{568f6fc8-1f43-4f2b-a598-3ae0cf4a5496}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>126.435799</value>
+		</property>
+		<property name="qualityA">
+			<value>0.820470273</value>
+		</property>
+		<property name="gainA">
+			<value>-10.5633793</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a9ab75c2-47df-4917-86ef-c840369afd11}" />

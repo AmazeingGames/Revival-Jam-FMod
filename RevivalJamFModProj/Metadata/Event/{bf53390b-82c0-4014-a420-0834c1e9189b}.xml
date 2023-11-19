@@ -59,7 +59,11 @@
 			<destination>{16019391-cf45-4032-8b81-737bf5aec4e6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{95e78c27-aa8c-48a8-82a6-0cb29758e9bb}" />
+	<object class="EventAutomatableProperties" id="{95e78c27-aa8c-48a8-82a6-0cb29758e9bb}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{9ea2a1af-ee41-4e0c-bd7d-a9c0a7604b2c}" />
 	<object class="GroupTrack" id="{eee781e6-138a-478b-93ec-83cc8225d0fa}">
 		<relationship name="modules">
@@ -101,7 +105,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c420e8d5-050d-4edc-a8ec-e29b9d2d4515}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -118,7 +122,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{93a5086a-64c4-4549-ac30-e5b072b012d0}">
 		<relationship name="effects">
+			<destination>{f729e6d9-ef54-4dae-8209-67bda0e1835d}</destination>
 			<destination>{c5673681-9195-47dc-8d95-02c10aac39c8}</destination>
+			<destination>{9ca7f28a-74c7-48a2-b1cb-657737e0e6dc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fb4e78fa-ae29-41dc-8b85-5c3e665fe044}" />
@@ -129,6 +135,31 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{779be53d-53ef-4ec8-b012-810ee5f6cb30}" />
+	<object class="MultibandEqEffect" id="{f729e6d9-ef54-4dae-8209-67bda0e1835d}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>8482.13477</value>
+		</property>
+		<property name="qualityA">
+			<value>0.339380294</value>
+		</property>
+		<property name="gainA">
+			<value>-6.92307663</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c5673681-9195-47dc-8d95-02c10aac39c8}" />
+	<object class="MixerSend" id="{9ca7f28a-74c7-48a2-b1cb-657737e0e6dc}">
+		<property name="level">
+			<value>-19.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{536d937a-a003-4bd7-8b18-4f0535597201}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{8f303123-8991-4434-b9ee-2543668914c6}" />
 </objects>

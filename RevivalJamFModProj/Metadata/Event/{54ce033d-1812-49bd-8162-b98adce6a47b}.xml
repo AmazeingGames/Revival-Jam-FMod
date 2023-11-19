@@ -59,7 +59,11 @@
 			<destination>{a8844c0c-cf42-4cd2-a7b9-f219d2fd8e42}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{6a6fe990-e13d-462a-a625-0533825d9017}" />
+	<object class="EventAutomatableProperties" id="{6a6fe990-e13d-462a-a625-0533825d9017}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{b7bcb6cd-56bd-4381-8809-0253efb3e288}" />
 	<object class="GroupTrack" id="{16443e28-5c2b-477b-bf2d-42f952b67df9}">
 		<relationship name="modules">
@@ -76,7 +80,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{d4e85147-619b-45d4-b7d3-0e7f3cb46ba1}">
 		<property name="volume">
-			<value>10</value>
+			<value>5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{c881f2f2-257c-4d6f-b8ab-24f04e157ccd}</destination>
@@ -110,7 +114,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ce05b351-ed20-4ba0-905c-0e89492a3f20}">
 		<property name="volume">
-			<value>4</value>
+			<value>1.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -174,10 +178,10 @@
 			<value>9</value>
 		</property>
 		<property name="frequencyA">
-			<value>277.844482</value>
+			<value>216.682251</value>
 		</property>
 		<property name="gainA">
-			<value>-7.44312096</value>
+			<value>-12.1235104</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{dc707a9a-e344-4e80-9ab0-c2c7ad2ff995}" />
